@@ -4,14 +4,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "parrk nam jun",
   "license": "ISC",
   "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.6"
+    "mongoose": "^5.9.6",
+    "parser": "^0.1.4"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
